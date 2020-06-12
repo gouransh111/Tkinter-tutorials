@@ -1,0 +1,12 @@
+from tkinter import *
+root = Tk()
+root.geometry("655x333")
+f1 = Frame(root,bg = "purple",borderwidth = 6,relief = SUNKEN)
+f1.pack(side = LEFT,fill = "y")
+f2 = Frame(root,borderwidth=8,bg = "purple",relief = SUNKEN)
+f2.pack(side=TOP,fill = "x",anchor = "nw")
+l = Label(f1,text = "Project tkinter - Pycharm")
+l.pack(pady = 42)
+l = Label(f2,text = "WELCOME TO PYCHARM")
+l.pack()
+root.mainloop()
